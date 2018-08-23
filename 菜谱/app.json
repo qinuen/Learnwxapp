@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/like/like",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0f0",
+    "navigationBarTitleText": "香哈菜谱",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#66ffcc",
+    "backgroundColor": "#0f0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedColor": "#0f0",
+        "text": "首页",
+        "iconPath": "images/ic_home_normal.png",
+        "selectedIconPath": "images/ic_home_pressed.png"
+      },
+      {
+        "pagePath": "pages/like/like",
+        "text": "收藏",
+        "iconPath": "images/ic_home_normal.png",
+        "selectedIconPath": "images/ic_home_pressed.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/ic_home_normal.png",
+        "selectedIconPath": "images/ic_home_pressed.png"
+      }
+    ]
+  }
+}

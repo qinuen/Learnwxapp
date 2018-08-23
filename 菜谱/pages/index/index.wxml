@@ -1,0 +1,13 @@
+<view class='content'>
+  <view class='banner'>
+  <swiper indicator-dots='{{indicatorDots}}' indicator-color='{{indicatorColor}}' interval='{{interval}}' autoplay='true'>
+    
+      <block wx:for="{{food}}">
+      <swiper-item>
+        <image class='img' src='{{item.imgUrl}}'></image>
+      </swiper-item>
+      </block>
+    
+  </swiper>
+  </view>
+</view>
