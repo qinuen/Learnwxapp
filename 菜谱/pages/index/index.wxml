@@ -1,13 +1,30 @@
 <view class='content'>
+<!--banner-->
   <view class='banner'>
   <swiper indicator-dots='{{indicatorDots}}' indicator-color='{{indicatorColor}}' interval='{{interval}}' autoplay='true'>
-    
       <block wx:for="{{food}}">
       <swiper-item>
         <image class='img' src='{{item.imgUrl}}'></image>
       </swiper-item>
       </block>
-    
   </swiper>
   </view>
+<!--热门推荐-->
+<view class='hot'>
+  <view class='hot-head'>
+    <view class='hot-head-title'>热门推荐</view>
+    <view class='hot-head-all'>查看全部</view>
+  </view>
+  <view class='hot-list'>
+  <block wx:for="{{hot}}">
+    <view class='hot-item'>
+    <view class='hot-item-img'>
+    <image src='{{item.imgUrl}}'></image>
+    </view>
+    <view class='hot-item-text'>{{item.text}}</view>
+    </view>
+  </block>
+  </view>
+  <view class='line5'></view>
+</view>
 </view>

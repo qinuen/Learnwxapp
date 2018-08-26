@@ -1,1 +1,43 @@
-.img{width: 100%}
+.banner.img{width: 100%}
+.banner{
+  margin-bottom: 20px;
+}
+/*热门推荐*/
+.hot{
+ 
+}
+.hot-head{
+  display: flex;
+  flex-direction: row;
+}
+.hot-head-title{
+  font-weight: bold;
+}
+.hot-head-all{
+  position: absolute;
+  right: 0;
+  color: #666;
+  font-size: 12px;
+}
+.hot-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+}
+.hot-item-img image{
+ width: 70px;
+ height: 70px;
+ border-radius: 5px;
+}
+.hot-item-text{
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  margin-top:-30px;
+}
+.line5{
+  height: 5px;
+  background: #eee;
+  margin-top: 10px;
+}
