@@ -1,0 +1,7 @@
+.option-box{height: 100px;width:82%;padding-top: 15px;margin: 0 auto;}
+.text1{height: 40px;border:1px solid rgb(216, 216, 216);width: 90%;margin: 0 auto;}
+.btn{background-color: #ec623f;margin-top: 10px;}
+.sv{width:95%;height: 270px;border: 1px solid rgb(221, 221, 221);margin: 0 auto;margin-top: 10px;}
+.sv-titile{height: 30px;text-align: center;font-size: 20px;}
+.sv-date{width: 100%;height: 20px;font-size: 17px;margin-top: 5px;color: #5e5a5980}
+.sv-site{width: 100%;height: auto;font-size: 14px;}
